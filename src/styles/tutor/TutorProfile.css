@@ -1,0 +1,13 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.tutorProfilePageMain{
+  margin: 0;
+  padding: 0;
+  overflow-y:auto;
+  height: 100vh;
+}
+
+.tutorProfilePage{
+  padding: 20px;
+}

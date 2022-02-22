@@ -1,0 +1,42 @@
+.customNavBar{
+  height: 1.1in;
+  border-bottom: 1px solid gray;
+  background-color: #E0E0E0;
+}
+.customNavBarAskITLogo{
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.customNavBarAskITName{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 0.6in;
+  text-align: center;
+  transform: translate(0, 10%);
+  color: black;
+}
+.customNavBarButton{
+  float: right;
+}
+.customNavBarLoginButton{
+  background-color: #ffd41c;
+  color: black;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 1in;
+  height: 0.45in;
+  box-shadow: 1px 1px 5px rgb(218, 218, 218);
+  transform: translate(0, 70%);
+}
+.customNavBarLoginButtonText{
+  padding: 10px 23px;
+}
+.customNavBarLoginButton:hover {
+  opacity: 0.5;
+}

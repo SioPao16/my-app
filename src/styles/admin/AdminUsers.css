@@ -1,0 +1,20 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.adminUsersPageMain{
+  margin: 0;
+  padding: 0;
+  overflow-y:auto;
+  height: 100vh;
+}
+.adminUsersPageTableContainer{
+  margin: 0;
+  padding: 10px;
+}
+.adminUsersPageMainTableContainer{
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 8in;
+}

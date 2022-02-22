@@ -1,0 +1,129 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.tuteeConsultPageMain{
+  margin: 0;
+  padding: 0;
+  overflow-y:auto;
+  height: 100vh;
+}
+.tuteeConsultPageConsultation{
+  margin: 10px;
+  padding: 10px;
+  width: 45%;
+  height: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+}
+.tuteeConsultPageSubjectsTitle, .tuteeConsultPageHeadersTitle{
+  margin: 0px;
+  padding: 0px;
+}
+.tuteeConsultPageSubjectsList, .tuteeConsultPageTutorList, .tuteeConsultPageTutorScheduleList{
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 6.3in;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.tuteeConsultPageSubjectsListButton, .tuteeConsultPageTutorListButton{
+  background-color: #ffd41c;
+  color: black;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  /*height: 0.6in;*/
+  height: auto;
+  box-shadow: 1px 1px 5px rgb(218, 218, 218);
+}
+.tuteeConsultPageSubjectsListButton:hover, .tuteeConsultPageTutorListButton:hover{
+  opacity: 0.6;
+}
+
+
+
+/*START OF RADIO BUTTONS*/
+/* The container */
+.sched {
+  display: block;
+  position: relative;
+  padding-left: 33px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default radio button */
+.sched input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(218, 218, 218);
+  border-radius: 50%;
+}
+/* On mouse-over, add a grey background color */
+.sched:hover input ~ .checkmark {
+  background-color: rgb(179, 179, 179);
+}
+/* When the radio button is checked, add a blue background */
+.sched input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the indicator (dot/circle) when checked */
+.sched input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the indicator (dot/circle) */
+.sched .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+/*END OF RADIO BUTTONS*/
+
+
+
+.tuteeConsultPageTutorScheduleListButton{
+  background-color: #04307A;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 15px 0px;
+  margin: 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 25%;
+  box-shadow: 1px 1px 5px rgb(218, 218, 218);
+}
+.tuteeConsultPageTutorScheduleListButton:hover{
+  opacity: 0.7;
+}

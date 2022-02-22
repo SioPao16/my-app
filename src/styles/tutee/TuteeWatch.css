@@ -1,0 +1,232 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.tuteeWatchPageMain{
+  margin: 0;
+  padding: 0;
+  overflow-y:auto;
+  height: 100vh;
+}
+.tuteeWatchPageWatch{
+  margin: 10px;
+  padding: 10px;
+  width: 45%;
+  height: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+}
+.tuteeWatchPageTutorsTitle, .tuteeWatchPageHeadersTitle, .tuteeWatchPageHeadersTitle{
+  margin: 0px;
+  padding: 0px;
+}
+.tuteeWatchPageTutorList{
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 6.3in;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.tuteeWatchPageTutorListButton{
+  background-color: #ffd41c;
+  color: black;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  /*height: 0.6in;*/
+  height: auto;
+  box-shadow: 1px 1px 5px rgb(218, 218, 218);
+}
+.tuteeWatchPageTutorListButton:hover, .tuteeWatchPageVideoReportListButton:hover{
+  opacity: 0.7;
+}
+.tuteeWatchPageVideoReportListButton{
+  background-color: #04307A;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 15px 0px;
+  margin: 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 70%;
+  box-shadow: 1px 1px 5px rgb(218, 218, 218);
+}
+.tuteeWatchPageVideoList{
+	overflow-y: scroll;
+	overflow-x: hidden;
+  height: 35.7rem;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+.tuteeWatchPageVideoCard{
+  margin: 5px 5px 10px 5px;
+  width: 100%;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.4);
+  border: none;
+  border-radius: 5px;
+}
+.tuteeWatchPageVideoCard:hover{
+  opacity: 0.7;
+}
+.tuteeWatchPageVideoCardContainer{
+  padding: 5px;
+}
+.tuteeWatchPageVideoDetails{
+  margin: 0;
+}
+.tuteeWatchPageVideoThumbnailContainer{
+  height:1in;
+  background-color:#BDBDBD;
+  margin: 0;
+  padding: 0;
+}
+.tuteeWatchPageVideoSummaryContainer{
+  height:1in;
+  margin: 0;
+  padding: 5px 10px;
+}
+.tuteeWatchPageVideoSummaryDetails{
+  padding: 0;
+  margin-bottom: 3px;
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+#playVideoNow{
+  padding: 0;
+  margin: 0;
+  font-size: large;
+  color: #2196F3;
+  border: none;
+  cursor: pointer;
+}
+.tuteeWatchPageVideoPlayer{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 8in;
+  padding-right: 10px;
+  margin: 0;
+}
+.tuteeWatchPageVideoPlayerContainer{
+  /*display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;*/
+  position: relative;
+  padding-top: 56.25%;
+  
+
+  /*background-color: rgb(116, 116, 116);
+  height: 90%;
+  width: 100%;
+  color: white;
+  font-size: 4rem;*/
+}
+.videoPlayerMain{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.tuteeWatchPageVideoTitleBarContainer{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 10%;
+}
+.tuteeWatchPageVideoTitleContainer{
+  background-color:white;
+  padding-left: 5px;
+  margin: 0;
+  height: 55%;
+  width: 100%;
+  align-items: center;
+  color: black;
+  font-size: 2rem;
+}
+.tuteeWatchPageVideoDateContainer{
+  background-color:white;
+  padding-left: 5px;
+  margin: 0;
+  height: 45%;
+  width: 100%;
+  align-items: center;
+  color: black;
+  font-size: 1.5rem;
+}
+.tuteeWatchPageVideoReportList{
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 3in;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.tuteeWatchPageVideoReport{
+  padding-top: 5px;
+}
+.tuteeWatchPageVideoReportButton{
+  background-color: #F44336;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgb(218, 218, 218);
+}
+.tuteeWatchPageVideoReportButton:hover{
+  opacity: 0.7;
+}
+.hRuleVideo{
+  margin-top: 10px;
+  width: 100%;
+  color: black;
+  background: black;
+}
+.tuteeWatchPageVideoDescriptionAuthorContainer{
+  background-color: white;
+  padding: 0;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+  height: auto;
+}
+.tuteeWatchPageVideoDescriptionContainer{
+  padding-left: 5px;
+  margin: 0;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  color: black;
+  font-size: 1.2rem;
+}
+.tuteeWatchPageVideoAuthorContainer{
+  padding-left: 5px;
+  margin: 20px 0px 0px 0px;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  color: black;
+  font-size: 1.2rem;
+}
+.tuteeWatchPageVideoAuthorBox, .tuteeWatchPageVideoDescriptionBox{
+  padding: 5px;
+  margin: 5px;
+  height: 5in;
+  width: 100%;
+  color: black;
+  font-size: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 5px;
+}

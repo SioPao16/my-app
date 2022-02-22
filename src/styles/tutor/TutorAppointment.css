@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.tutorAppointmentPageMain{
+  margin: 0;
+  padding: 0;
+  overflow-y:auto;
+  height: 100vh;
+}
+.tutorAppointmentPageAllCalendarsContainer{
+  margin: 0;
+  padding: 1px 5px 5px 5px;
+}
+.tutorAppointmentPageMonthlyCalendarContainer{
+  margin-top: 5px;
+  padding: 5px;
+}
+.tutorAppointmentPageMainCalendarContainer{
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 3in;
+}
+.tutorAppointmentPageMainCalendarContainerChatButton{
+  color: #2196F3;
+  border: none;
+  cursor: pointer;
+}

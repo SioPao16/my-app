@@ -15,7 +15,7 @@ function TutorSchedule() {
         <button className="tutorProfilePageButtons" onClick={() => tutorScheduleListSetModalShow(true)}>
           <Row className="g-0">
             <Col md={3} lg={3} xl={3} className="ti-calendar tutorProfileButtonIcon"></Col>
-            <Col md={9} lg={9} xl={9} className="tutorProfileButtonName"><h2>Schedules</h2></Col>
+            <Col md={9} lg={9} xl={9} className="tutorProfileButtonName"><h2>My Schedules</h2></Col>
           </Row>
         </button>
 
